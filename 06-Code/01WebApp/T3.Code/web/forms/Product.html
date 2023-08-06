@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+ <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/adproducto.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap" rel="stylesheet">
+        <title>Ingreso de Productos</title>
+    </head>
+
+    <body>
+        
+        <!-- Inicio de Formulario -->
+        <form id="form" action="../jsps/addProduct.jsp" >
+            <h1 class="titulo">Ingreso de Inventario</h1>
+
+            <div class="agregarPro">
+                
+                <!--Inicio Nombre-->
+                <div class="agregar">
+                    <label class="txtlabel">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" class="form-control "/>
+                </div>
+                <!--Fin Nombre-->
+
+                <!--Inicio Cantidad-->
+                <div class="agregar">
+                    <label>Cantidad</label>
+                    <input type="number" id="cantidad" name="cantidad" class="form-control"/>
+                </div>
+                <!--Fin Nombre-->
+                
+                <!--Inicio Medida-->
+                <div class="agregar">
+                    <label>Medida</label>
+                    <select name="medida" id="medida">
+                        <option value="0">--Seleccione una Medida--</option>
+                        <option value="Kg">Kg</option>
+                        <option value="Gr">Gr</option>
+                        <option value="Cg">Cg</option>
+                        <option value="Gal">Gal</option>
+                        <option value="Lt">Lt</option>
+                        <option value="Ml">Ml</option>
+                    </select>
+                </div>
+                <!--Fin Medida-->
+                
+                <!--Inicio valor-->
+                <div class="agregar">
+                    <label>Valor</label>
+                    <input type="text" id="valor" name="valor" class="form-control" />
+                </div>
+                <!--Fin valor-->
+                <!--Inicia Numero de factura-->
+                <div class="factura">
+                    <label class="txtlabel">Número de factura</label>
+                    <input type="text" id="factura" name="factura" class="form-control "/>
+                </div>
+                <!--Fin Numero de factura-->
+                <!--Inicio Fecha Caduca-->
+                <div class="fecha-caduca">
+                    <label>Fecha de caducidad</label>
+                    <input type="date" id="fechaCaducidad" name="fechaCaducidad">
+                </div>
+                <!--Fin Fecha Caduca-->
+            </div>
+
+            <!--Mensaje de Error-->
+            <div class="errorMsg" >
+                <p id="error"></p>
+            </div>
+            <!--Fin Mensaje de Error-->
+
+            <div class="flex-botones">
+                
+                <!--Inicio Boton Guardar-->
+                <div class="botones">
+                    <button type="submit" class="btn btn-primary">Guardar</button>
+                </div>
+                <!--Fin Boton Guardar-->
+                
+                <!--Inicio Boton Descartar-->
+                <div class="botones">
+                    <button type="reset" class="btn btn-secondary">Descartar</button>
+                </div>
+                <!--Fin Boton Descartar-->
+
+                <!--Regresar Menu Inicial-->
+                <div class="botones regresar">
+                    <a href="../index.html">Regresar al menú inicial</a>
+                </div>
+                <!--Fin Regresar Menu Inicial-->
+            </div>
+
+            <!-- Fin formulario -->
+        </form>
+        
+        <script src="../js/addproducto.js"></script>
+
+    </body>
+
+</html>

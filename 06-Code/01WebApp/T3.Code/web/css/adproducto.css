@@ -1,0 +1,86 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+body{
+    background-color: #222;
+    color: white;
+    font: 200 18px 'Poppins', sans-serif;
+}
+
+label{
+    display: block;
+    padding-top: 15px;
+}
+
+input{
+    width: 250px;
+    height: 25px;
+}
+
+select{
+    width: 250px;
+    height: 25px;
+}
+
+.titulo{
+    padding-top: 20px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid #ffc900;
+}
+
+.agregarPro {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding-bottom: 25px;
+}
+
+.errorMsg{
+    grid-template-columns:none;
+    text-align: center;
+    padding-bottom: 15px;
+    color: #EF4E91;
+}
+
+.flex-botones{
+    display: flex;
+    justify-content: center;
+}
+
+button[type="submit"]{
+    font: 600 18px 'Poppins', sans-serif;
+    border-radius: 10px;
+    background-color: #ffc900;
+    width: 145px;
+    height: 35px;
+}
+
+button[type="reset"]{
+    font: 600 18px 'Poppins', sans-serif;
+    border-radius: 10px;
+    background-color: #ffc900;
+    width: 145px;
+    height: 35px;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    font: 600 18px 'Poppins', sans-serif;
+    color: black;
+    background-color: #ffc900;
+    border-radius: 10px;
+    border: solid 1px black;
+    width: 250px;
+    height: 30px;
+    padding-top: 2px;
+}
+
+.regresar{
+    padding-left: 0;
+}
+
+

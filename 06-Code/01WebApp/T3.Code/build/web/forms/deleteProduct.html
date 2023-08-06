@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/delateproductstyle.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap" rel="stylesheet">
+        <title>Pancito Dulce</title>
+    </head>
+
+    <body>
+
+        <div class="header_document">
+            <div class="flex-header">
+                <div>
+                    <img src="../img/pan_2.png" alt="pan" class="img-header">
+                </div>
+
+                <div>
+                    <h1 class="titulo">Borrar Producto</h1>
+                </div>
+
+                <div>
+                    <img src="../img/pan_1.png" alt="pan" class="img-header">
+                </div>
+            </div>
+        </div>
+
+        <div class="grid-content">
+
+            <div class="caja-1">
+
+                <img src="../img/DulcePan.png" alt="logo_panaderia">
+
+            </div>
+
+            <div class="caja-2">
+
+                <!-- Inicio de Formulario -->
+                <form id="formDelete" action="../jsps/deleteProduct.jsp" >
+                    <div>
+                        <!--Inicio Nombre-->
+                        <div class="add">
+                            <label class="txtlabel">Nombre del producto</label>
+                            <input type="text" id="nombre" name="nombre" class="form-control"/>
+                        </div>
+                        <!--Fin Nombre-->
+                        
+                        <!--Inicio Factura-->
+                        <div class="add">
+                            <label class="txtlabel">Factura</label>
+                            <input type="text" id="factura" name="factura" class="form-control"/>
+                        </div>
+                        <!--Fin Factura-->
+                    </div>
+
+                    <div class="errorMsg" >
+                        <p id="error">No se encuentra el producto</p>
+                    </div>
+                    
+                    <!--Inicio Boton-->
+                    <div class="button-borrar">
+                        <button type="submit" class="btn btn-primary">Borrar</button>
+                    </div>
+                    <!--Fin Boton-->
+                    
+                    <div class="button-regresar">
+                        <a href="../index.html">Regresar al menu inicial</a>
+                    </div>
+
+                </form>
+        <!-- Fin formulario --> 
+            </div>
+
+        </div>
+
+    </body>
+</html>
