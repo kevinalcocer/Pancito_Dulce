@@ -1,14 +1,14 @@
-# Grupo3_DesarrolloWeb
-Desarrollo de aplicaciones web 10522 
+# Grupo1_IngenieríaSoftware2
+Ingeniería de software II - NRC 10805  
 Buen día, nuestro grupo está conformado por:
-- Juan Molina
-- David Molineros
 - Kevin Alcocer
 - Adrian Chin
-- Gabriela Guevara.
+- Juan Molina
+- David Molineros
+- Daniela Morales.
 
-Nuestro aplicativo web es diseñado para la Panadería "Dulce Pan"
+Nuestro aplicativo web es diseñado para la Panadería "Pancito Dulce"
 
 ¡Saludos!
 
-Att: Grupo 3 :) 
+Att: Grupo 1 :) 
