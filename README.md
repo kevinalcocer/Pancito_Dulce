@@ -8,6 +8,7 @@ Buen día, nuestro grupo está conformado por:
 -Juan Molina
 -David Molineros
 -Daniela Morales.
+
 Nuestro aplicativo web es diseñado para la Panadería "Pancito Dulce"
 
 ¡Saludos!
