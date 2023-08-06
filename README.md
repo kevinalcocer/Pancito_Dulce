@@ -1,5 +1,5 @@
 # Grupo1_IngenieríaSoftware2
-Ingeniería de software II - NRC 10805  
+Ingeniería de software II - NRC 10805
 Buen día, nuestro grupo está conformado por:
 - Kevin Alcocer
 - Adrian Chin
@@ -7,8 +7,8 @@ Buen día, nuestro grupo está conformado por:
 - David Molineros
 - Daniela Morales.
 
-Nuestro aplicativo web es diseñado para la Panadería "Pancito Dulce"
+Nuestro aplicativo web está diseñado para la Panadería "Pancito Dulce".
 
 ¡Saludos!
 
-Att: Grupo 1 :) 
+Att: Grupo 1 :)
