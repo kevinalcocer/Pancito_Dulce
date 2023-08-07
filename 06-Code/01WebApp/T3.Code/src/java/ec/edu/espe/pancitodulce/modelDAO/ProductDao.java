@@ -11,7 +11,14 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 /**
  *
- * @author pc
+ * @author Grupo 1 Ingenieria de Software
+ * Fecha de creación: 08/01/2023
+ * Historia de Modificación
+ * Versión  Modificador     Fecha       Cambio                  Razón
+ * 1.0      Juan Molina     08/01/2023  Nuevo campo de cálculo  Solicitud
+ * 1.1      David Molineros 08/02/2023  Función de valor        Pet. cambio 214
+ * 1.2      Chin Adrian     08/03/2023  Agrga funcón Iva        Pet. cambio 256
+ * 
  */
 
 public class ProductDao {
